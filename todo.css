@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    padding: 20px;
+    margin: 0%;
+    font-family: Geneva;
+}
+
+.todo-container{
+    margin: auto;
+    padding: 20px;
+    background-color:gainsboro;
+    max-width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    padding: 0%;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 5px 10px 0;
+}
+
+li{
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.delete-button{
+    background-color:  rgba(37, 114, 255, 0.308);
+    color: rgb(17, 14, 14);
+    border-radius: 4px;
+    padding: 5px 10px
+}
+.add-button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
